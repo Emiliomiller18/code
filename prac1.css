@@ -1,0 +1,28 @@
+.circulo{
+    background-color: blue;
+    clip-path: circle();
+    shape-outside: circle();
+    height: 300px;
+    margin: 10px;
+    width: 300px;
+    float: left;
+}
+p{
+    shape-outside: circle();
+   
+}
+.contenedor{
+    background-color: aqua;
+    clip-path: polygon(2 2);
+    shape-outside: polygon();
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+p{
+   
+    shape-outside: inset();
+}
+.contenedor1{
+    margin-bottom:200px;
+}

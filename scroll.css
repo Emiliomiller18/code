@@ -1,0 +1,20 @@
+.contenedorpadre{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.seccion{
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+}
+.seccion:nth-child(odd){
+    background-color: skyblue;
+    color: blue;
+}
+.seccion:nth-child(even){
+    background-color: blue;
+    color: white;
+}
